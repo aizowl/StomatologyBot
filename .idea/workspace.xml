@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3f0a87c-ed59-457c-99e0-dbfd31f2f7e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adres.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot_data" beforeDir="false" afterPath="$PROJECT_DIR$/bot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cr.py" beforeDir="false" afterPath="$PROJECT_DIR$/cr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kb.py" beforeDir="false" afterPath="$PROJECT_DIR$/kb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainp.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menup.py" beforeDir="false" afterPath="$PROJECT_DIR$/menup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/message.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +35,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23xKpt4yGmSmAqI7aV5OZWctTpm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/requirements.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -76,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1642670489719</updated>
       <workItem from="1642670494055" duration="10656000" />
-      <workItem from="1642874063359" duration="5054000" />
+      <workItem from="1642874063359" duration="13057000" />
+      <workItem from="1643189665031" duration="2379000" />
     </task>
     <servers />
   </component>

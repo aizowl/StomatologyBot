@@ -46,22 +46,38 @@ def music(update: Update, context: CallbackContext):
     )
 
 
-def idea(update: Update, context: CallbackContext):
-    info = re.match(IDEA_REGEX, update.message.text)
+# def idea(update: Update, context: CallbackContext):
+#     info = re.match(IDEA_REGEX, update.message.text)
+#     update.message.reply_text(
+#         text2
+#     )
+
+def zapisat(update: Update, context:CallbackContext):
+    z = update.message.text
+
+    print(z[:10])
+    if z[:10] == 'Предложить':
+        context.bot.send_message(
+            chat_id = '@CurltaiChat',
+            text = z
+        )
+
+
+def zapis(update: Update, context: CallbackContext):
+    info=re.match(IDEA_REGEX, update.message.text)
     update.message.reply_text(
         text2
     )
 
-
 def svyaz(update: Update, context: CallbackContext):
-    info = re.match(IDEA_REGEX, update.message.text)
+    info = re.match(SVYAZ_REGEX, update.message.text)
     update.message.reply_text(
         text4
     )
 
 
 def statya(update: Update, context: CallbackContext):
-    info = re.match(IDEA_REGEX, update.message.text)
+    info = re.match(STATYA_REGEX, update.message.text)
     update.message.reply_text(
         text5
     )
@@ -113,6 +129,8 @@ Curltai – это большое сообщество людей, зараже�
             # reply_markup=uslugi_menu()
         )
 
+
+
 updater = Updater(TOKEN, persistence=PicklePersistence(filename='bot_data'))
 updater.dispatcher.add_handler(CommandHandler('start', start))
 
@@ -127,7 +145,7 @@ updater.dispatcher.add_handler(MessageHandler(
 ))
 updater.dispatcher.add_handler(MessageHandler(
     Filters.regex(IDEA_REGEX),
-    idea
+    zapis
 ))
 updater.dispatcher.add_handler(MessageHandler(
     Filters.regex(SVYAZ_REGEX),
@@ -136,6 +154,10 @@ updater.dispatcher.add_handler(MessageHandler(
 updater.dispatcher.add_handler(MessageHandler(
     Filters.regex(STATYA_REGEX),
     statya
+))
+updater.dispatcher.add_handler(MessageHandler(
+    Filters.text, 
+    zapisat
 ))
 updater.dispatcher.add_handler(CallbackQueryHandler(inline_buttons))
 

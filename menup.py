@@ -9,7 +9,11 @@ def main_menu_keyboard():
         [
             telegram.KeyboardButton(tele_buttons[0]),
             telegram.KeyboardButton(tele_buttons[1]),
+        ],
+        [
             telegram.KeyboardButton(tele_buttons[2]),
+        ],
+        [
             telegram.KeyboardButton(tele_buttons[3]),
             telegram.KeyboardButton(tele_buttons[4]),
         ]
